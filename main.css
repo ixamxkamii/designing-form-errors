@@ -31,9 +31,3 @@ html {
 .is-validated:invalid + label + .error-message {
   display: block;
 }
-
-.error-message:first-child,
-input:invalid + .error-message,
-input:invalid + label + .error-message {
-  display: block;
-}
